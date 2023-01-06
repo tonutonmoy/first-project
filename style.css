@@ -11,6 +11,7 @@ header{
     height: 809px;
     display: flex;
     align-items: center;
+    box-shadow: 10px 20px 30px rgb(63, 80, 64);
 }
 
 .banner{
@@ -93,6 +94,7 @@ border-radius: 5px;
 border: none;
 margin-top: 32px;
 margin-left: 76.6%;
+box-shadow: 10px 10px 10px rgb(73, 39, 24);
 
 
 }
@@ -112,6 +114,7 @@ previous year */
 height: 723.3px;
 margin-top: 150px;
 margin-left: 5%;
+box-shadow: 10px 10px 10px rgb(128, 107, 107);
 
     
 
@@ -284,3 +287,72 @@ color: #151414;
  padding-left: 40px;
 }
 
+/* Always keep a positive 
+mindset */
+
+.always{
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    margin-bottom: 140px;
+    margin-left: 270px;
+    background-image:url(./images/gradient2.png), url(./images/watch.png);
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(149, 161, 155);
+    border-radius: 5px;
+
+
+}
+.always-div{
+   
+    width: 459px;
+    height: 182px;
+    margin-left: 64px;
+}
+
+.always-h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+
+}
+
+.always-btn{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+border-radius: 5px;
+border: none;
+background: #FFFFFF;
+padding: 21px 36px;
+color: #F15B22;
+margin-top: 45px;
+
+
+}
+
+.frame{
+    border: 30px solid rgb(53, 43, 43);
+    border-radius: 10%;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 30px 30px 30px rgb(37, 37, 39);
+    
+}
+
+.frame:hover {
+   
+    border: none;
+}
+.video{
+    text-align: center;
+    margin-top: 100px;
+}
