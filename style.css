@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header  banner */
+
+header{
+    background-image: url(./images/banner/banner2.png);
+
+    height: 809px;
+    display: flex;
+    align-items: center;
+}
+
+.banner{
+   
+    width: 100%;
+    height: 70%;
+    
+}
+.banner-h1{
+    font-family: 'Work Sans';
+    
+    font-size: 64.5px;
+    font-weight: 700;
+    margin-left: 60%;
+    margin-top: 85px;
+    
+     
+
+}
+.banner-h2{
+    font-family: 'Work Sans';
+    margin-left: 60%;
+    font-size: 62px;
+    font-weight: 700;
+    padding-top: 5px;
+  
+
+}
+.banner-h3{
+    font-family: 'Work Sans';
+    margin-left: 72.5%;
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 5px;
+    
+     
+
+}
+
+
+.banner-p-1, .banner-p-2, .banner-p-3{
+    font-size: 16px;
+    font-family: 'Work Sans';
+    color: #444343;
+    font-weight: 400;
+   
+    
+
+}
+.banner-p-1{
+    margin-left: 60.9%;
+    padding-top: 20px;
+    
+    
+}
+.banner-p-2{
+    margin-left: 58.7%;
+    padding-top: 7px;
+   
+
+    
+
+}
+.banner-p-3{
+    margin-left: 64%;
+    padding-top: 7px;
+    
+
+}
+
+.banner-btn{
+    font-weight: 600;
+font-size: 20px;
+font-family: 'Work Sans';
+color: #FFFFFF;
+width: 160px;
+height: 64px;
+background: #F15B22;
+border-radius: 5px;
+border: none;
+margin-top: 32px;
+margin-left: 76.6%;
+
+
+}
+
+/* My failures of 
+previous year */
+
+.failures{
+    display: flex;
+    
+   
+
+}
+.failures-img {
+   background-image: url(./images/person.png);
+   width: 569px;
+height: 723.3px;
+margin-top: 150px;
+margin-left: 11%;
+    
+
+}
+.failures-div{
+    margin-top: 400px;
+    
+   
+
+}
+
+.failures-h1-1{
+    padding-left: 100px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 3px;
+    color: #151414;
+}
+.failures-h1-2{
+    padding-left: 100px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.failures-p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 100px;
+padding-top: 5px;
+color: #444343;
+}
+.failures-p-2{
+   
+font-family: 'Work Sans';
+
+font-weight: 400;
+font-size: 16px; 
+color: #444343;
+padding-top: 10px;
+padding-left: 130px;
+
+}
+.failures-p-1{
+   
+font-family: 'Work Sans';
+
+font-weight: 400;
+font-size: 16px; 
+color: #444343;
+padding-top: 20px;
+padding-left: 130px;
+
+}
+
+/* my plan */
+
