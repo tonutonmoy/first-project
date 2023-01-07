@@ -31,6 +31,9 @@ header{
      
 
 }
+.banner-h1:hover{
+    color: #a0431f;
+}
 .banner-h2{
     font-family: 'Work Sans';
     margin-left: 60%;
@@ -39,6 +42,9 @@ header{
     padding-top: 5px;
   
 
+}
+.banner-h2:hover{
+    color: rgb(39, 70, 39);
 }
 .banner-h3{
     font-family: 'Work Sans';
@@ -49,6 +55,9 @@ header{
     
      
 
+}
+.banner-h3:hover{
+    color: rgb(32, 32, 92);
 }
 
 
@@ -81,6 +90,9 @@ header{
     
 
 }
+.banner-p-1:hover, .banner-p-2:hover, .banner-p-3:hover{
+    color: rgb(241, 1, 1);
+}
 
 .banner-btn{
     font-weight: 600;
@@ -94,11 +106,15 @@ border-radius: 5px;
 border: none;
 margin-top: 32px;
 margin-left: 76.6%;
-box-shadow: 10px 10px 10px rgb(73, 39, 24);
+box-shadow: 10px 10px 10px rgb(58, 42, 36);
 
 
 }
-
+.banner-btn:hover{
+ background-color: rgb(185, 12, 12);
+ color: black;
+ border-radius: 50%;
+}
 /* My failures of 
 previous year */
 
@@ -161,7 +177,7 @@ font-weight: 400;
 font-size: 16px; 
 color: #444343;
 padding-top: 10px;
-padding-left: 130px;
+padding-left: 100px;
 
 }
 .failures-p-1{
@@ -172,7 +188,7 @@ font-weight: 400;
 font-size: 16px; 
 color: #444343;
 padding-top: 20px;
-padding-left: 130px;
+padding-left: 100px;
 
 }
 
@@ -355,4 +371,106 @@ margin-top: 45px;
 .video{
     text-align: center;
     margin-top: 100px;
+}
+
+/* future*/
+
+.footer{
+    background-color: #000000;
+    height: 577px;
+    display: flex;
+    align-items: center;
+}
+.future-div{
+
+    margin: 130px 230px;
+   
+    height: 250px;
+}
+.future-email{
+    text-decoration: none;
+    color: #F15B22;
+}
+.future-h1{
+    font-family: 'Work Sans';
+   
+    font-weight: 700;
+    font-size: 45px;
+    
+    padding-bottom: 5px;
+    
+    color: #F8F8F8;
+    
+}
+.future-p{
+    font-family: 'Work Sans';
+
+font-weight: 400;
+font-size: 16px;
+
+margin-bottom: 5px;
+color: #FFFFFF;
+
+}
+
+.future-p-1{
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: #F8F8F8;
+}
+.future-p-2{
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: #F8F8F8;
+}
+
+
+.icon{
+    margin-left: 10px;
+}
+
+.form{
+    
+    width: 300px;
+    height: 250px;
+}
+
+.form-h1{
+    
+        font-family: 'Work Sans';
+    
+    font-weight: 600;
+    font-size: 25px;
+    
+    color: #FFFFFF;
+    
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.form-input{
+    width: 325px;
+height: 64px;
+padding-left: 10px;
+border: 2px solid whitesmoke;
+border-radius: 7px;
+background-color: #151414;
+font-size: 15px;
+
+}
+
+.form-btn{
+    width: 170.11px;
+    height: 64px; 
+    margin-top: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 38px;
+    margin-top: 15px;
+}
+.form-btn:hover{
+    color: black;
+    background: rgb(128, 27, 27);
 }
